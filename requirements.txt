@@ -1,0 +1,11 @@
+# Runtime dependencies for the LangGraph blogging-agent notebooks
+langgraph
+langchain
+langchain-openai
+langchain_community
+langchain_google_genai
+pydantic
+
+# Notebook runtime
+ipykernel
+jupyter
