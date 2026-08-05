@@ -7,3 +7,7 @@ start->router->research->orchestrator->worker->reducer->end
 5. worker: no. of sections=no. of worker nodes, working on respective sections parallely.
 6. reducer: stitches all sections ,give combined blog to llm , finds out where images are required and asks to add image.
 7. end
+
+For router:
+topic->router(llm)->yes internet search req.-> [search queries]->research(tavily)->orchestrator
+
